@@ -4,7 +4,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ML du Corte</title>
+    <link rel="shortcut icon" href="Imagens/barber-pole.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        *{margin: 0; padding: 0; box-sizing: border-box;}
+        :root{
+            --primary:#1a1a1a;
+            --secondary:#d4af37;
+            --accent:#8b0000;
+            --light:#333;
+        }
+        body{
+            font-family: 'Roboto', sans-serif;
+            background-color: var(--light);
+            color: var(--primary);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+        h1,h2,h3,h4{
+            font-family: 'Oswald', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .container{
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .btn{
+            display: inline-block;
+            background: var(--secondary);
+            color: var(--primary);
+            padding: 12px 25px;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-radius: 15px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+    </style>
 </head>
 
 <body>
@@ -83,10 +126,182 @@
                     <p>Corte profissional com técnicas modernas e acabamento perfeito.</p>
                     <div class="price">R$ 27</div>
                 </div>
-                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-air-freshener"></i>
+                    </div>
+                    <h3>Barba completa</h3>
+                    <p>Modelagem, hidratação e acabamento com toalha quente.</p>
+                    <div class="price">R$ 33</div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h3>Corte + barba</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, iste at! Deserunt autem
+                        alias quaerat quis nemo quo voluptas qui magni dignissimos repellendus dicta ipsum, sapiente
+                        ducimus, dolores dolorem accusamus?</p>
+                    <div class="price">R$ 50</div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <h3>Tratamento capilar</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel laborum minima quia? Sapiente ipsum
+                        fugiat optio iusto nostrum molestiae, facere nemo minima sunt voluptatibus, cupiditate quidem
+                        eius saepe numquam repellat.</p>
+                    <div class="price">R$ 60</div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-br"></i>
+                    </div>
+                    <h3>Coloração</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ad aperiam in earum nam, voluptatem
+                        voluptates magni cum ab inventore. Soluta, vero molestiae? Cupiditate quod ratione id vel, sint
+                        quas.</p>
+                    <div class="price">R$ 80</div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-gift"></i>
+                    </div>
+                    <h3>Pacote premium</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ad aperiam in earum nam, voluptatem
+                        voluptates magni cum ab inventore. Soluta, vero molestiae? Cupiditate quod ratione id vel, sint
+                        quas.</p>
+                    <div class="price">R$ 120</div>
+                </div>
             </div>
         </div>
     </section>
+
+    <sectionc class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nossa Galeria</h2>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80" alt="">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1567894340315-735d7c361db0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80" alt="">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80" alt="">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1598524374668-5d565a3c42e8?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1596728325488-58c87691e9af?q=80&w=1173&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1532710093739-9470acff878f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80" alt="">
+                </div>                
+            </div>
+        </div>
+    </section>
+
+    <!--Contato-->
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Entre em contato</h3>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Endereço</h4>
+                            <p>Avenida Atlântica, 1000<br> Rio de Janeiro, RJ</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Telefone</h4>
+                            <p>(21) 99999-8888</p>
+                        </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>E-mail</h4>
+                                <p>contato@mlducorte.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Horário de funcionamento</h4>
+                                <p>Segunda à sexta, das 9h às 19h</p>
+                            </div>
+                        </div>
+                    </div>
+                       
+                    <div class="contact-form">
+                            <h3>Agende um horário</h3>
+                            <form method="post">
+                                <div class="form-group">
+                                    <input type="text" name="name" placeholder="SEU NOME">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" placeholder="SEU EMAIL">
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" placeholder="SEU TELEFONE">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" placeholder="SERVIÇO DESEJADO">
+                                </div>
+                                <div class="form-group">
+                                    <textarea placeholder="ENVIE UMA MENSAGEM" maxlength="10"></textarea>
+                                </div>
+                                <button type="submit" class="btn">Enviar</button>
+                            </form>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+<!--Footer-->
+
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="logo">
+                <i class="fas fa-cut"></i>
+                <h1>ML du Corte <span>Barbearia</span></h1>
+            </div>
+            <div class="social-links">
+                <a href="https://www.facebook.com/share/1EszAugSMM/">
+                    <i class="fab fa-facebook-f"></i>Facebook
+                </a>
+                <a href="https://www.instagram.com/o_mldocorte?igsh=MWt0cjJydG5uM2c1OA==">
+                    <i class="fab fa-instagram"></i>Instagram
+                </a>
+                <a href="#">
+                    <i class="fab fa-whatsapp"></i>Whatsapp
+                </a>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy;2025, ML du Corte. Todos os direitos reservados.
+        </div>
+    </div>
+</footer>
 
 </body>
 
